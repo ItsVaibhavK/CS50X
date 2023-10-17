@@ -1,0 +1,26 @@
+UPDATE shows SET title = "How I Met Your Mother" WHERE title LIKE "How i met your mother";
+UPDATE shows SET title = "Adventure Time" WHERE title LIKE "adventure time";
+UPDATE shows SET title = "Avatar: The Last Airbender" WHERE title LIKE "Avatar%";
+UPDATE shows SET title = "Brooklyn Nine-Nine" WHERE title LIKE "Brooklyn%";
+UPDATE shows SET title = "Brooklyn Nine-Nine" WHERE title LIKE "%99";
+UPDATE shows SET title = "Community" WHERE title LIKE "community";
+UPDATE shows SET title = "Family Guy" WHERE title LIKE "family guy";
+UPDATE shows SET title = "Friends" WHERE title LIKE "friends";
+UPDATE shows SET title = "Game of Thrones" WHERE title LIKE "Game of Thrones";
+UPDATE shows SET title = "Gilmore Girls" WHERE title LIKE "Gilmore Girls";
+UPDATE shows SET title = "Grey’s Anatomy" WHERE title LIKE "grey%";
+UPDATE shows SET title = "How I Met Your Mother" WHERE title LIKE "How I Met Your Mother";
+UPDATE shows SET title = "It’s Always Sunny in Philadelphia" WHERE title LIKE "Its Always Sunny in Philadelphia";
+UPDATE shows SET title = "Parks and Recreation" WHERE title LIKE "Parks and Recreation";
+UPDATE shows SET title = "Sherlock" WHERE title LIKE "Sherlock";
+UPDATE shows SET title = "Squid Game" WHERE title LIKE "Squid Game";
+UPDATE shows SET title = "The Bachelorette" WHERE title LIKE "The Bachelorette";
+UPDATE shows SET title = "The Crown" WHERE title LIKE "The Crown";
+UPDATE shows SET title = "The Office" WHERE title LIKE "The Office";
+UPDATE shows SET title = "The Queen’s Gambit" WHERE title LIKE "%Gambit";
+UPDATE shows SET title = "The Untamed" WHERE title LIKE "The Untamed";
+
+UPDATE shows SET title = "The Office" WHERE title LIKE "%office";
+UPDATE shows SET title = "Criminal Minds" WHERE title LIKE "%minds";
+UPDATE shows SET title = "Parks and Recreation" WHERE title LIKE "parks%";
+UPDATE shows SET title = "Sherlock" WHERE title LIKE "sherlock%";
