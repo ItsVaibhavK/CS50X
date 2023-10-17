@@ -9,7 +9,8 @@ I have uploaded the **.sb3** file for one of the mini-games I had created, but h
 2. [A Game of Luck](https://scratch.mit.edu/projects/906362655/)
 
 
-## Weeks 1 through 5
+## Weeks 1 through 9
+
 Weeks 1 through 5 were mainly about understanding the fundamentals of programming (though the difficulty ramped up quickly).
 
 The language used was C, and we were started off with the basic concepts of:
