@@ -9,7 +9,7 @@ I have uploaded the **.sb3** file for one of the mini-games I had created, but h
 2. [A Game of Luck](https://scratch.mit.edu/projects/906362655/)
 
 
-## Weeks 1 through 9
+## Weeks 1 through 5
 
 Weeks 1 through 5 were mainly about understanding the fundamentals of programming (though the difficulty ramped up quickly).
 
@@ -43,13 +43,25 @@ Week 4 took us through the dreaded concept of **MEMORY** (just kidding, it was q
 Week 5 covered data structures - lists, hash tables, queues, stacks, tries, etc.
 This week marked the end of our journey of programming in C.
 
+
+## Week 6
+
 Week 6 started us off in the world of Python and open-source libraries.
 We were shown how our lengthy C programs were now about a line or two of code, and the magic of being able to use (and find) libraries for almost any imaginable end-goal.
+
+
+## Week 7
 
 Week 7 introduced us to SQL databases, specifically SQLite3. We learnt how to run SQL commands in Python.
 We had to solve a fun little crime-thriller-mystery using SQL queries - Check out [Fiftyville](https://cs50.harvard.edu/x/2023/psets/7/fiftyville/) for details.
 
+
+## Week 8
+
 Week 8 took us to an entirely new part of programming, web development. We served up static websites using `http-server`, and familiarised ourselves with the basics of HTML, CSS and JavaScript.
+
+
+## Week 9
 
 Week 9 introduced us to [Flask](https://flask.palletsprojects.com/en/3.0.x/), a web framework in Python, and [Jinja](https://jinja.palletsprojects.com/en/3.1.x/), a templating language for Python.
 We concluded with our last problem set for the course, which involved building a web application using [Flask](https://flask.palletsprojects.com/en/3.0.x/) that would allow a user to:
