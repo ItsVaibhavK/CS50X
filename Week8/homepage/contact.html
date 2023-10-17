@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                document.querySelector('#button-submit').addEventListener('click', function(event) {
+                    let name = document.querySelector('#name');
+                    if (name.value) {
+                        alert('Sorry, ' + name.value + ', this is just a demo for now.');
+                    }
+                    else {
+                        alert('Sorry, friend, this is just a demo for now.');
+                    }
+                });
+            });
+        </script>
+        <link href="styles.css" rel="stylesheet">
+        <title>D's Kitchen</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico.jpg">
+    </head>
+    <body style="background-color: #36454F">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand">
+                <img src="/images/favicon.ico.jpg" class="rounded-circle" alt="D's Kitchen Logo" width="50" height="50">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="./index.html">HOME</a>
+                  <a class="nav-link" href="./bio.html">HISTORY</a>
+                  <a class="nav-link" href="./media.html">MEDIA</a>
+                  <a class="nav-link" href="./links.html">MUSIC</a>
+                  <a class="nav-link active" aria-current="page" href="./contact.html">SAY HELLO</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          <!-- Contact form -->
+          <hr>
+          <div class="container" id="form-title">
+            <h3>We'd love to hear from you!</h3>
+          </div>
+          <div class="container" id="contact-form">
+            <div class="input-group">
+                <input autofocus placeholder="First name" id="name" type="text" aria-label="First name" class="form-control">
+                <input type="text" placeholder="Last name" aria-label="Last name" class="form-control">
+            </div>
+            <hr>
+            <input type="text" placeholder="Message" aria-label="Message" class="form-control">
+            <hr>
+            <button type="submit" id="button-submit">SUBMIT</button>
+          </div>
+    </body>
+</html>

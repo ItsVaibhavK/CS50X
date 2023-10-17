@@ -1,0 +1,50 @@
+body {
+    background-image: url("/animation/background.gif");
+    background-size: cover;
+   }
+
+.card-title {
+    text-align: center;
+}
+
+#bio {
+    background-color: #479295;
+    color: #EDCEA2;
+}
+
+#links-title {
+    color: #EDCEA2;
+}
+
+#links a:link,
+#links a:visited,
+#links a:hover,
+#links a:active {
+    color: #EDCEA2;
+    text-decoration: none;
+}
+
+#links {
+    text-align: center;
+}
+
+#player {
+    margin-left:180px;
+    position: center;
+}
+
+#contact-form {
+    width: 50%;
+}
+
+#form-title {
+    width: 25%;
+    text-align: center;
+    background-color: #479295;
+    color: #EDCEA2;
+}
+
+#button-submit {
+    background-color: #479295;
+    color: #EDCEA2;
+}
